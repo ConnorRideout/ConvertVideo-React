@@ -50,6 +50,7 @@
     "@types/react-dom": "^19.1.9",
     "@vitejs/plugin-react": "^4.2.0",
     "run-script-os": "^1.1.6",
+    "sass": "^1.94.2",
     "typescript": "^5.1.6",
     "vite": "^5.0.0",
     "vite-tsconfig-paths": "^4.2.1"

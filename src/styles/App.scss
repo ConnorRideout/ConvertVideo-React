@@ -1,0 +1,12 @@
+@use 'variables';
+
+* {
+    padding: variables.$spacing;
+    margin: 0;
+    overflow-wrap: anywhere;
+    box-sizing: border-box;
+    font-family: variables.$fontFamily;
+    font-size: variables.$fontDefault;
+    color: variables.$fgNormal;
+    background-color: variables.$bgNormal;
+}
