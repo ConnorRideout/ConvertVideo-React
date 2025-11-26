@@ -1,0 +1,7 @@
+format: mkv
+video:
+  - HEVC
+audio:
+  - AAC
+subtitle:
+  - SSA

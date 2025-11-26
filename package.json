@@ -4,7 +4,7 @@
   "description": "A simple boilerplate to get started with pywebview and React",
   "main": "index.js",
   "scripts": {
-    "build": "npm run clean && npm run frontend:prod && run-script-os",
+    "build": "npm run clean && npm run frontend:prod && run-script-os && python copy_definitions.py",
     "build:macos": "./venv-pywebview/bin/python build-macos.py py2app",
     "build:windows": ".\\venv-pywebview\\Scripts\\pyinstaller build-windows.spec",
     "build:linux": "pyinstaller build-linux.spec",

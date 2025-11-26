@@ -9,5 +9,5 @@ class API:
         webview.windows[0].destroy()
 
     def get_filedata(self):
-        # topfol = sys_argv[1] if len(sys_argv) > 0 else getenv('FILE_PATH')
+        topfol = sys_argv[1] if len(sys_argv) > 0 else getenv('FILE_PATH')
         return [{"filepath": "testing this"}]

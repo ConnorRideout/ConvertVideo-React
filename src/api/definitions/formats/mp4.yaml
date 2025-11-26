@@ -1,0 +1,7 @@
+format: mp4
+video:
+  - HEVC
+audio:
+  - AAC
+subtitle:
+  - "mov text"
