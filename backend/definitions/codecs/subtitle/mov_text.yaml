@@ -1,0 +1,3 @@
+codec: mov text
+ffprobe: mov_text
+ffmpeg: -c:s mov_text

@@ -1,0 +1,3 @@
+codec: SSA
+ffprobe_name: ssa
+ffmpeg: -c:s ssa

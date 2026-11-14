@@ -1,0 +1,3 @@
+codec: OPUS
+ffprobe_name: libopus
+ffmpeg: -c:a libopus -b:a $math(${ffprobe:channels}*64)k

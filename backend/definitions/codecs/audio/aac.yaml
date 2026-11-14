@@ -1,0 +1,3 @@
+codec: AAC
+ffprobe_name: aac
+ffmpeg: -c:a aac -b:a $math(${ffprobe:channels}*64)k

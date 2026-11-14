@@ -1,0 +1,30 @@
+{
+    "name": "convertvideo-react-noboiler",
+    "version": "1.0.0",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev:web": "vite",
+        "dev:py": "py -m watchfiles --filter python \".venv\\Scripts\\python.exe -u main.py --dev\" main.py backend lib",
+        "dev": "concurrently -n vite,py -c blue,green \"npm:dev:web\" \"npm:dev:py\"",
+        "build": "tsc --noEmit && vite build"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "react": "^19.3.1",
+        "react-dom": "^19.3.1"
+    },
+    "devDependencies": {
+        "@types/react": "^19.3.0",
+        "@types/react-dom": "^19.3.0",
+        "@vitejs/plugin-react": "^6.2.1",
+        "concurrently": "^10.0.6",
+        "sass": "^1.108.0",
+        "typescript": "^7.0.2",
+        "vite": "^8.3.6",
+        "vite-tsconfig-paths": "^6.1.1"
+    }
+}
